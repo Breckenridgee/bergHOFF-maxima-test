@@ -1,0 +1,20 @@
+<div id="page_header">
+    <div id="nav-border">
+        <nav id="nav" class="nav_items_menu sticky">
+            {{ range .Site.Menus.main }}
+                <a href="{{ .URL | absLangURL }}" class="nav_item">
+                {{ $text := print .Name }}
+                {{ $text }}
+                </a>
+            {{ end }}
+        </nav>
+        <nav class="nav_items_language">
+            {{ range .AllTranslations }}
+                <a href="{{ .Permalink }}" class="nav_item">{{ .Language.LanguageName }}</a>
+            {{ end}}
+        </nav>
+    </div>
+    <div class="page_img">
+        <img src="images/header.jpg"/>
+    </div>
+</div>

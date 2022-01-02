@@ -1,0 +1,281 @@
+@font-face {
+    font-family: light;
+    src: url("../fonts/ProximaNovaAltCondensedLight.otf") format("opentype");
+}
+@font-face {
+    font-family: bold;
+    src: url("../fonts/ProximaNovaAltExtraCondensedLight.otf") format("opentype");
+}
+
+body {
+    padding: 3rem 0;
+    background: white;
+    color: #135959;
+    max-width: 100%;
+    margin: auto;
+    font-family: light;
+}
+
+#nav-border {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    width: 100%;
+    display: inline-flex;
+    background-color: white;
+    z-index: 1001;
+}
+
+.nav_items_language {
+    position: relative;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 30%;
+    font-size: 1.2rem;
+    display: inline-flex;
+    width: 10%;
+    justify-content: center;
+    font-family: bold;
+}
+
+.nav_items_menu {
+    position: relative;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+    font-size: 1.2rem;
+    display: inline-flex;
+    width: 60%;
+    justify-content: center;
+    font-family: bold;
+}
+
+.nav_items_language a {
+    color:  #135959;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav_items_menu a {
+    color:  #135959;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav_item {
+    margin-right: 10px;
+}
+
+.page_img img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.footer {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.products_menu {
+    width: 100%;
+    display: flex-block;
+}
+
+.products_menu_item {
+    width: 20%;
+    text-decoration: none;
+    color: #135959;
+    font-size: 1rem;
+    display: inline-flex;
+    margin: 1% 6%;
+    background-color:  #FCF4DC;
+    justify-content: center;
+    border: #135959 solid 1px;
+    padding: 4px;
+    border-radius: 70px;
+}
+
+.products_menu_item:hover {
+    color: #FCF4DC;
+    background-color:  #135959;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    /* margin: 25px 100px 0 100px; */
+    justify-content: center;
+}
+
+.container .card {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #135959;
+    border-radius: 20px;
+
+    overflow: hidden;
+    margin: 20px;
+    border: solid #135959 2px;
+}
+
+.container .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FCF4DC;
+    clip-path: circle(160px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.container .card:after {
+    content: "BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA";
+    width: 500px;
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    font-size: 3em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(252, 244, 220, 0.1);
+    transform: rotate(30deg);
+}
+
+.container .card .imgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 800;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.container .card:hover .imgBx {
+    top: 0%;
+    transform: translateY(-25%) rotate(-20deg);
+}
+
+.container .card .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    width: 270px;
+}
+
+.container .card .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+.container .card:hover .contentBx {
+    height: 240px;
+}
+
+.container .card .contentBx h2 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 5px;
+    word-spacing: 10px;
+}
+
+.container .card .contentBx .size {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container .card:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+.container .card .contentBx .size h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.products_text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+    font-size: 120px;
+    color: #FCF4DC;
+    background-color:  #135959;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.8)), to(rgba(0,0,0,0)));
+    mask-image: radial-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
+}
+
+.products_content img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin: 10px 0; */
+}
+
+.sticker {
+    height: 70px;
+}
+.sticker_content {
+    display: inline-flex;
+    align-items: center;
+}
+
+.promotion {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.container .card:hover .promotion {
+    transform: translate(15px, -15px) rotate(20deg);
+}
