@@ -1,6 +1,5 @@
 ---
 title: "Products"
-draft: true
 ---
 <div>
     <div class="products_menu">
