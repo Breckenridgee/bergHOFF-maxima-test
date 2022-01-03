@@ -40,7 +40,7 @@ defaultContentLanguage = 'et'
       weight = 10
     [[languages.ru.menu.main]]
       name = 'RU Rules'
-      url = 'https://www.ig-site.com/ru/rules/'
+      url = '/rules'
       weight = 20
     [[languages.ru.menu.main]]
       name = 'RU Products'

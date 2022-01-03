@@ -9,5 +9,5 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
 from = "/*"
-to = "https://ig-site.com/"
+to = "/404.html"
 status = 200
