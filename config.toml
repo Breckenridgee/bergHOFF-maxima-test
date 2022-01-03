@@ -9,6 +9,7 @@ defaultContentLanguage = 'et'
 
 [languages]
   [languages.et]
+    baseURL = 'https://ig-site.com/'
     contentDir = 'content/et'
     LanguageName = 'ET'
     weight = 1
@@ -30,6 +31,7 @@ defaultContentLanguage = 'et'
       url = '/special-promotion'
       weight = 40
   [languages.ru]
+    baseURL = 'https://ig-site.com/'
     contentDir = 'content/ru'
     LanguageName = 'RU'
     weight = 2
