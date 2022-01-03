@@ -17,9 +17,9 @@ defaultContentLanguage = 'et'
       url = '/'
       weight = 10
     [[languages.et.menu.main]]
-    identifier = "rules"
+      identifier = "rules"
       name = 'ET Rules'
-      url = '/rules/'
+      url = '/rules'
       weight = 20
     [[languages.et.menu.main]]
       name = 'ET Products'
