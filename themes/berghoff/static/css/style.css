@@ -32,7 +32,7 @@ body {
     top: 40%;
     bottom: 0;
     right: 0;
-    left: 30%;
+    left: 34%;
     font-size: 1.2rem;
     display: inline-flex;
     width: 10%;
@@ -213,13 +213,18 @@ body {
     transform: translateY(-30%) rotate(-75deg);
 }
 
+.container .card3s:hover .imgBx {
+    top: 0%;
+    transform: translateY(-25%) rotate(-20deg);
+}
+
 .container .card .imgBx img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(20deg);
     width: 270px;
-    width: 90%;
+    width: 80%;
 }
 
 .container .card .contentBx {
@@ -237,7 +242,7 @@ body {
 }
 
 .container .card3:hover .contentBx {
-    height: 200px;
+    height: 190px;
 }
 
 .container .card .contentBx h2 {

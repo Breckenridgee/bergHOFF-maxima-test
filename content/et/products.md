@@ -172,9 +172,9 @@ title: "ET Products"
                 </div>
             </div>
         </div>
-        <div id="accessory_2" class="card">
+        <div id="accessory_2" class="card3s card3 card">
             <div class="imgBx">
-                <img src="images/web_3950152_001.png" alt="AURUTUSREST-SÕEL" style="width: 80%">
+                <img src="images/web_3950152_001.png" alt="AURUTUSREST-SÕEL" style="width: 70%">
             </div>
             <span class="promotion"> -61% </span>
             <div class="contentBx">

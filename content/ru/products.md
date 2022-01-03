@@ -174,7 +174,7 @@ title: "RU Products"
         </div>
         <div id="accessory_2" class="card">
             <div class="imgBx">
-                <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width: 80%">
+                <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width: 70%">
             </div>
             <span class="promotion"> -61% </span>
             <div class="contentBx">
