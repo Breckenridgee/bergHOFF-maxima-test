@@ -113,7 +113,8 @@ body {
     position: relative;
     display: flex;
     gap: 20px;
-    margin-top: 40px;
+    padding: 40px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -144,17 +145,41 @@ body {
     transition: 0.5s ease-in-out;
 }
 
+.container .card2 {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background:#FCF4DC;
+    border-radius: 20px;
+
+    overflow: hidden;
+    margin: 20px;
+    border: solid #FCF4DC 2px;
+}
+
+.container .card2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #135959;
+    clip-path: circle(160px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
 .container .card:hover:before {
     clip-path: circle(300px at 80% -20%);
 }
 
 .container .card:after {
-    content: "BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA";
-    width: 500px;
+    content: "BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA";
+    width: 1000px;
     position: absolute;
-    top: -20%;
-    left: -20%;
-    font-size: 3em;
+    top: -30%;
+    left: -30%;
+    font-size: 4em;
     font-weight: 800;
     font-style: italic;
     color: rgba(252, 244, 220, 0.1);
@@ -176,12 +201,23 @@ body {
     transform: translateY(-25%) rotate(-20deg);
 }
 
+.container .card2:hover .imgBx {
+    top: 0%;
+    transform: translateY(-30%) rotate(-75deg);
+}
+
+.container .card3:hover .imgBx {
+    top: 0%;
+    transform: translateY(-30%) rotate(-75deg);
+}
+
 .container .card .imgBx img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(20deg);
     width: 270px;
+    width: 90%;
 }
 
 .container .card .contentBx {
@@ -198,14 +234,22 @@ body {
     height: 240px;
 }
 
+.container .card3:hover .contentBx {
+    height: 200px;
+}
+
 .container .card .contentBx h2 {
     position: relative;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 3px;
     color: #fff;
-    margin: 5px;
-    word-spacing: 10px;
+    margin: 3px;
+    word-spacing: 5px;
+}
+
+.container .card2 .contentBx h2 {
+    color: #135959;
 }
 
 .container .card .contentBx .size {
@@ -233,6 +277,10 @@ body {
     margin-right: 10px;
 }
 
+.container .card2 .contentBx .size h3 {
+    color: #135959;
+}
+
 .products_text {
     width: 100%;
     margin-left: auto;
@@ -253,7 +301,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* margin: 10px 0; */
+    padding: 50px;
 }
 
 .sticker {
