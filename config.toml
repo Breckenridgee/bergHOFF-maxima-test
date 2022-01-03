@@ -1,4 +1,3 @@
-baseURL = 'https://ig-site.com/'
 languageCode = 'et'
 title = 'Berghoff'
 theme = 'berghoff'
@@ -31,7 +30,7 @@ defaultContentLanguage = 'et'
       url = '/special-promotion'
       weight = 40
   [languages.ru]
-    baseURL = 'https://ig-site.com/'
+    baseURL = 'https://ig-site.com/ru/'
     contentDir = 'content/ru'
     LanguageName = 'RU'
     weight = 2
