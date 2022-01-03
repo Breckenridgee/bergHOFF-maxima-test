@@ -19,7 +19,7 @@ defaultContentLanguage = 'et'
     [[languages.et.menu.main]]
     identifier = "rules"
       name = 'ET Rules'
-      url = '/rules'
+      url = '/rules/'
       weight = 20
     [[languages.et.menu.main]]
       name = 'ET Products'
@@ -39,7 +39,7 @@ defaultContentLanguage = 'et'
       weight = 10
     [[languages.ru.menu.main]]
       name = 'RU Rules'
-      url = 'https://www.ig-site.com/ru/rules'
+      url = 'https://www.ig-site.com/ru/rules/'
       weight = 20
     [[languages.ru.menu.main]]
       name = 'RU Products'
