@@ -1,3 +1,4 @@
+baseURL = 'https://ig-site.com/'
 languageCode = 'et'
 title = 'Berghoff'
 theme = 'berghoff'
@@ -8,45 +9,45 @@ defaultContentLanguage = 'et'
 
 [languages]
   [languages.et]
-    baseURL = 'https://ig-site.com/'
     contentDir = 'content/et'
-    LanguageName = 'ET'
+    languageName = 'ET'
     weight = 1
-    [[languages.et.menu.main]]
-      name = 'ET Home'
-      url = '/'
-      weight = 10
-    [[languages.et.menu.main]]
-      identifier = "rules"
-      name = 'ET Rules'
-      url = '/rules'
-      weight = 20
-    [[languages.et.menu.main]]
-      name = 'ET Products'
-      url = '/products'
-      weight = 30
-    [[languages.et.menu.main]]
-      name = 'ET Special promotion'
-      url = '/special-promotion'
-      weight = 40
+    [languages.et.menu]
+      [[languages.et.menu.main]]
+        name = 'ET Home'
+        url = '/'
+        weight = 10
+      [[languages.et.menu.main]]
+        identifier = "rules"
+        name = 'ET Rules'
+        url = '/rules'
+        weight = 20
+      [[languages.et.menu.main]]
+        name = 'ET Products'
+        url = '/products'
+        weight = 30
+      [[languages.et.menu.main]]
+        name = 'ET Special promotion'
+        url = '/special-promotion'
+        weight = 40
   [languages.ru]
-    baseURL = 'https://ig-site.com/ru/'
     contentDir = 'content/ru'
-    LanguageName = 'RU'
+    languageName = 'RU'
     weight = 2
-    [[languages.ru.menu.main]]
-      name = 'RU Home'
-      url = '/'
-      weight = 10
-    [[languages.ru.menu.main]]
-      name = 'RU Rules'
-      url = '/rules'
-      weight = 20
-    [[languages.ru.menu.main]]
-      name = 'RU Products'
-      url = '/products'
-      weight = 30
-    [[languages.ru.menu.main]]
-      name = 'RU Special promotion'
-      url = '/special-promotion'
-      weight = 40
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        name = 'RU Home'
+        url = '/'
+        weight = 10
+      [[languages.ru.menu.main]]
+        name = 'RU Rules'
+        url = '/rules'
+        weight = 20
+      [[languages.ru.menu.main]]
+        name = 'RU Products'
+        url = '/products'
+        weight = 30
+      [[languages.ru.menu.main]]
+        name = 'RU Special promotion'
+        url = '/special-promotion'
+        weight = 40
