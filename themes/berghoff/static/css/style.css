@@ -11,7 +11,7 @@ body {
     padding: 3rem 0;
     background: white;
     color: #135959;
-    max-width: 100%;
+    max-width: 1900px;
     margin: auto;
     font-family: light;
 }
@@ -19,7 +19,7 @@ body {
 #nav-border {
     position: fixed;
     top: 0;
-    width: 100%;
+    max-width: 1900px;
     height: 3rem;
     width: 100%;
     display: inline-flex;
@@ -86,8 +86,10 @@ body {
 }
 
 .products_menu {
-    width: 100%;
-    display: flex-block;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .products_menu_item {
