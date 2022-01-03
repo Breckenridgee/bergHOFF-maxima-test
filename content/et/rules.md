@@ -1,6 +1,5 @@
 ---
 title: "Rules"
-draft: true
 ---
 
 <div class="container">
