@@ -32,7 +32,7 @@ body {
     top: 40%;
     bottom: 0;
     right: 0;
-    left: 34%;
+    left: 32%;
     font-size: 1.2rem;
     display: inline-flex;
     width: 10%;
@@ -71,8 +71,6 @@ body {
 
 .page_img img {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
     display: block;
 }
@@ -337,3 +335,25 @@ body {
 .container .card:hover .promotion {
     transform: translate(15px, -15px) rotate(20deg);
 }
+
+.rules_content {
+    width: 100%;
+    margin: auto;
+}
+
+.rules_content img {
+    width: 100%;
+}
+
+.rules_container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 80%;
+}
+
