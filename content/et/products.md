@@ -9,7 +9,7 @@ title: "ET Products"
     </div>
     <div id="pots" class="container">
         <div class="products_content">
-            <img src="images/web_3950303_006.jpg" alt="berghoff_image">
+            <img src="images/web_3950300_007.jpg" alt="berghoff_image">
         </div>
         <div class="products_content_2">
             <div id="pot_1" class="card">
@@ -89,7 +89,7 @@ title: "ET Products"
         <div id="pans" class="container">
             <div id="pan_1" class="card2 card">
                 <div class="imgBx">
-                    <img src="images/web_3950296_002.png" alt="PRAEPANN">
+                    <img src="images/web_3950298_002.png" alt="PRAEPANN">
                 </div>
                 <span class="promotion"> -69% </span>
                 <div class="contentBx">
@@ -106,7 +106,7 @@ title: "ET Products"
             </div>
             <div id="pan_2" class="card2 card">
                 <div class="imgBx">
-                    <img src="images/web_3950297_002.png" alt="PRAEPANN">
+                    <img src="images/web_3950297_002.png" alt="PRAEPANN" style="width:70%">
                 </div>
                 <span class="promotion"> -68% </span>
                 <div class="contentBx">
@@ -123,7 +123,7 @@ title: "ET Products"
             </div>
             <div id="pan_3" class="card2 card">
                 <div class="imgBx">
-                    <img src="images/web_3950298_002.png" alt="PRAEPANN">
+                    <img src="images/web_3950296_002.png" alt="PRAEPANN" style="width:60%">
                 </div>
                 <span class="promotion"> -72% </span>
                 <div class="contentBx">

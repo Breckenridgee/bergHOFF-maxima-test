@@ -8,7 +8,7 @@
 }
 
 body {
-    padding: 3rem 0;
+    padding: 0;
     background: white;
     color: #135959;
     max-width: 1900px;
@@ -117,7 +117,8 @@ body {
     position: relative;
     display: flex;
     gap: 10px;
-    padding-top: 10%;
+    margin-top: 8%;
+    padding-top: 8%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -176,16 +177,16 @@ body {
 }
 
 .container .card:after {
-    content: "BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA";
+    content: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
     width: 800px;
     position: absolute;
-    top: -30%;
-    left: -30%;
+    top: 0%;
+    left: 0%;
     font-size: 3.2em;
     font-weight: 800;
     font-style: italic;
     color: rgba(252, 244, 220, 0.1);
-    transform: rotate(30deg);
+    /* transform: rotate(-30deg); */
 }
 
 .container .card .imgBx {
