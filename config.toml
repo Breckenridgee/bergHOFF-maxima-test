@@ -14,39 +14,33 @@ defaultContentLanguage = 'et'
     weight = 1
     [languages.et.menu]
       [[languages.et.menu.main]]
-        name = 'ET Home'
+        identifier = 'rules'
+        name = 'ET Rules'
         url = '/'
         weight = 10
       [[languages.et.menu.main]]
-        name = 'ET Rules'
-        url = '/rules'
+        name = 'ET Products'
+        url = '/products/'
         weight = 20
       [[languages.et.menu.main]]
-        name = 'ET Products'
-        url = '/products'
-        weight = 30
-      [[languages.et.menu.main]]
         name = 'ET Special promotion'
-        url = '/special-promotion'
-        weight = 40
+        url = '/special-promotion/'
+        weight = 30
   [languages.ru]
     contentDir = 'content/ru'
     languageName = 'RU'
     weight = 2
     [languages.ru.menu]
       [[languages.ru.menu.main]]
-        name = 'RU Home'
-        url = '/'
+        identifier = 'rules'
+        name = 'RU Rules'
+        url = '/rules/'
         weight = 10
       [[languages.ru.menu.main]]
-        name = 'RU Rules'
-        url = '/rules'
+        name = 'RU Products'
+        url = '/products/'
         weight = 20
       [[languages.ru.menu.main]]
-        name = 'RU Products'
-        url = '/products'
-        weight = 30
-      [[languages.ru.menu.main]]
         name = 'RU Special promotion'
-        url = '/special-promotion'
-        weight = 40
+        url = '/special-promotion/'
+        weight = 30

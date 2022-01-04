@@ -33,7 +33,7 @@ body {
     bottom: 0;
     right: 0;
     left: 32%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: inline-flex;
     width: 10%;
     justify-content: center;
@@ -46,7 +46,7 @@ body {
     bottom: 0;
     right: 0;
     left: 20%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: inline-flex;
     width: 60%;
     justify-content: center;
@@ -84,37 +84,40 @@ body {
 }
 
 .products_menu {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
+    top: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    justify-content: space-evenly;
+    background-color: white;
+    z-index: 1001;
 }
 
 .products_menu_item {
-    width: 20%;
+    min-width: 110px;
     text-decoration: none;
-    color: #135959;
+    color: #FCF4DC;
     font-size: 1rem;
     display: inline-flex;
-    margin: 1% 6%;
-    background-color:  #FCF4DC;
-    justify-content: center;
+    margin: 1% 1%;
+    background-color: #135959 ;
     border: #135959 solid 1px;
-    padding: 4px;
+    justify-content: center;
+    padding: 0.3%;
     border-radius: 70px;
 }
 
 .products_menu_item:hover {
-    color: #FCF4DC;
-    background-color:  #135959;
+    color: #135959;
+    background-color: #FCF4DC;
 }
 
 .container {
     position: relative;
     display: flex;
-    gap: 20px;
-    padding: 40px;
-    margin-top: 20px;
+    gap: 10px;
+    padding-top: 10%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -123,14 +126,13 @@ body {
 
 .container .card {
     position: relative;
-    width: 320px;
-    height: 450px;
+    width: 256px;
+    height: 360px;
     background: #135959;
-    border-radius: 20px;
-
+    border-radius: 16px;
     overflow: hidden;
-    margin: 20px;
-    border: solid #135959 2px;
+    margin: 16px;
+    border: solid #135959 1px;
 }
 
 .container .card:before {
@@ -141,20 +143,20 @@ body {
     width: 100%;
     height: 100%;
     background: #FCF4DC;
-    clip-path: circle(160px at 80% 20%);
+    clip-path: circle(128px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
 
 .container .card2 {
     position: relative;
-    width: 320px;
-    height: 450px;
+    width: 256px;
+    height: 360;
     background:#FCF4DC;
-    border-radius: 20px;
+    border-radius: 16px;
 
     overflow: hidden;
-    margin: 20px;
-    border: solid #FCF4DC 2px;
+    margin: 16px;
+    border: solid #FCF4DC 1.6px;
 }
 
 .container .card2:before {
@@ -165,21 +167,21 @@ body {
     width: 100%;
     height: 100%;
     background: #135959;
-    clip-path: circle(160px at 80% 20%);
+    clip-path: circle(128px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
 
 .container .card:hover:before {
-    clip-path: circle(300px at 80% -20%);
+    clip-path: circle(240px at 80% -20%);
 }
 
 .container .card:after {
     content: "BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA BergHOFF MAXIMA";
-    width: 1000px;
+    width: 800px;
     position: absolute;
     top: -30%;
     left: -30%;
-    font-size: 4em;
+    font-size: 3.2em;
     font-weight: 800;
     font-style: italic;
     color: rgba(252, 244, 220, 0.1);
@@ -229,28 +231,28 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     text-align: center;
     transition: 1s;
     z-index: 90;
 }
 
 .container .card:hover .contentBx {
-    height: 240px;
+    height: 192px;
 }
 
 .container .card3:hover .contentBx {
-    height: 190px;
+    height: 152px;
 }
 
 .container .card .contentBx h2 {
     position: relative;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2.4px;
     color: #fff;
-    margin: 3px;
-    word-spacing: 5px;
+    margin: 2.4px;
+    word-spacing: 4px;
 }
 
 .container .card2 .contentBx h2 {
@@ -261,7 +263,7 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 8px 8px;
+    padding: 6.4px 6.4px;
     transition: .5s;
     opacity: 0;
     visibility: hidden;
@@ -276,10 +278,10 @@ body {
 .container .card .contentBx .size h3 {
     color: white;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-right: 10px;
+    letter-spacing: 1.6px;
+    margin-right: 8px;
 }
 
 .container .card2 .contentBx .size h3 {
@@ -290,11 +292,11 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-top: 80px;
     text-align: center;
     display: block;
-    font-size: 120px;
+    font-size: 96px;
     color: #FCF4DC;
     background-color:  #135959;
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.8)), to(rgba(0,0,0,0)));
@@ -306,11 +308,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding: 50px;
+    padding: 40px;
 }
 
 .sticker {
-    height: 70px;
+    height: 56px;
 }
 .sticker_content {
     display: inline-flex;
@@ -345,6 +347,25 @@ body {
     width: 100%;
 }
 
+products_content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100px;
+    float: right;
+    margin: auto;
+}
+
+.products_content_2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100rem;
+    float: right;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
 .rules_container {
     position: relative;
     display: flex;
@@ -357,3 +378,14 @@ body {
     width: 80%;
 }
 
+.products_container {
+    width: 80%;
+    display: inline-block;
+}
+
+.berghoff {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+}

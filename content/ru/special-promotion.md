@@ -1,5 +1,9 @@
 ---
-title: "Special promotion"
+title: "Special Promotion"
 ---
 
-RU About
+<div class="rules_container">
+    <div class="rules_content">
+        <img src="images/promotion.png" alt="promotion">
+    </div>
+</div>

@@ -8,71 +8,76 @@ title: "ET Products"
         <a class="products_menu_item" href="products#accessories">Accessories</a>
     </div>
     <div id="pots" class="container">
-        <div id="pot_1" class="card">
-            <div class="imgBx">
-                <img src="images/web_3950301_001.png" alt="KAANEGA HAUDENÕU">
-            </div>
-            <span class="promotion"> -68% </span>
-            <div class="contentBx">
-                <h2>KAANEGA HAUDENÕU</h2>
-                <div class="size">
-                    <h3>&empty; 20cm</h3>
-                    <div class="sticker_content">
-                        <h2>5 X</h2>
-                        <img class="sticker" src="images/sticker.png" alt="sticker">
+        <div class="products_content">
+            <img src="images/web_3950303_006.jpg" alt="berghoff_image">
+        </div>
+        <div class="products_content_2">
+            <div id="pot_1" class="card">
+                <div class="imgBx">
+                    <img src="images/web_3950301_001.png" alt="KAANEGA HAUDENÕU">
+                </div>
+                <span class="promotion"> -68% </span>
+                <div class="contentBx">
+                    <h2>KAANEGA HAUDENÕU</h2>
+                    <div class="size">
+                        <h3>&empty; 20cm</h3>
+                        <div class="sticker_content">
+                            <h2>5 X</h2>
+                            <img class="sticker" src="images/sticker.png" alt="sticker">
+                        </div>
+                        <h2><s style="font-size: 70%">65.95</s> 20.99&euro;</h2>
                     </div>
-                    <h2><s style="font-size: 70%">65.95</s> 20.99&euro;</h2>
                 </div>
             </div>
-        </div>
-        <div id="pot_2" class="card">
-            <div class="imgBx">
-                <img src="images/web_3950304_001.png" alt="KAANEGA WOK-PANN">
-            </div>
-            <span class="promotion"> -64% </span>
-            <div class="contentBx">
-                <h2>KAANEGA WOK-PANN</h2>
-                <div class="size">
-                    <h3>&empty; 28cm</h3>
-                    <div class="sticker_content">
-                        <h2>5 X</h2>
-                        <img class="sticker" src="images/sticker.png" alt="sticker">
+            <div id="pot_2" class="card">
+                <div class="imgBx">
+                    <img src="images/web_3950304_001.png" alt="KAANEGA WOK-PANN">
+                </div>
+                <span class="promotion"> -64% </span>
+                <div class="contentBx">
+                    <h2>KAANEGA WOK-PANN</h2>
+                    <div class="size">
+                        <h3>&empty; 28cm</h3>
+                        <div class="sticker_content">
+                            <h2>5 X</h2>
+                            <img class="sticker" src="images/sticker.png" alt="sticker">
+                        </div>
+                        <h2><s style="font-size: 70%">99.95</s> 34.99&euro;</h2>
                     </div>
-                    <h2><s style="font-size: 70%">99.95</s> 34.99&euro;</h2>
                 </div>
             </div>
-        </div>
-         <div id="pot_3" class="card">
-            <div class="imgBx">
-                <img src="images/web_3950300_001.png" alt="KAANEGA KASTRUL">
-            </div>
-            <span class="promotion"> -68% </span>
-            <div class="contentBx">
-                <h2>KAANEGA KASTRUL</h2>
-                <div class="size">
-                    <h3>&empty; 18cm</h3>
-                    <div class="sticker_content">
-                        <h2>5 X</h2>
-                        <img class="sticker" src="images/sticker.png" alt="sticker">
+                <div id="pot_3" class="card">
+                <div class="imgBx">
+                    <img src="images/web_3950300_001.png" alt="KAANEGA KASTRUL">
+                </div>
+                <span class="promotion"> -68% </span>
+                <div class="contentBx">
+                    <h2>KAANEGA KASTRUL</h2>
+                    <div class="size">
+                        <h3>&empty; 18cm</h3>
+                        <div class="sticker_content">
+                            <h2>5 X</h2>
+                            <img class="sticker" src="images/sticker.png" alt="sticker">
+                        </div>
+                        <h2><s style="font-size: 70%">63.95</s> 19.99&euro;</h2>
                     </div>
-                    <h2><s style="font-size: 70%">63.95</s> 19.99&euro;</h2>
                 </div>
             </div>
-        </div>
-        <div id="pot_4" class="card">
-            <div class="imgBx">
-                <img src="images/web_3950303_001.png" alt="KAANEGA SUPIPOTT">
-            </div>
-            <span class="promotion"> -68% </span>
-            <div class="contentBx">
-                <h2>KAANEGA SUPIPOTT</h2>
-                <div class="size">
-                    <h3>&empty; 24cm</h3>
-                    <div class="sticker_content">
-                        <h2>5 X</h2>
-                        <img class="sticker" src="images/sticker.png" alt="sticker">
+            <div id="pot_4" class="card">
+                <div class="imgBx">
+                    <img src="images/web_3950303_001.png" alt="KAANEGA SUPIPOTT">
+                </div>
+                <span class="promotion"> -68% </span>
+                <div class="contentBx">
+                    <h2>KAANEGA SUPIPOTT</h2>
+                    <div class="size">
+                        <h3>&empty; 24cm</h3>
+                        <div class="sticker_content">
+                            <h2>5 X</h2>
+                            <img class="sticker" src="images/sticker.png" alt="sticker">
+                        </div>
+                        <h2><s style="font-size: 70%">91.95</s> 28.99&euro;</h2>
                     </div>
-                    <h2><s style="font-size: 70%">91.95</s> 28.99&euro;</h2>
                 </div>
             </div>
         </div>
