@@ -360,7 +360,7 @@ products_content {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    width: 100rem;
+    width: 120rem;
     float: right;
     margin: auto;
     justify-content: space-evenly;

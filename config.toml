@@ -34,7 +34,7 @@ defaultContentLanguage = 'et'
       [[languages.ru.menu.main]]
         identifier = 'rules'
         name = 'RU Rules'
-        url = '/rules/'
+        url = '/'
         weight = 10
       [[languages.ru.menu.main]]
         name = 'RU Products'
