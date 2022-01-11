@@ -1,6 +1,7 @@
 @font-face {
     font-family: light;
     src: url("../fonts/ProximaNovaAltCondensedLight.otf") format("opentype");
+    font-size: 100%;
 }
 @font-face {
     font-family: bold;
@@ -10,74 +11,99 @@
 body {
     padding-top: 5%;
     background: white;
-    color: #135959;
-    max-width: 1900px;
+    color: #063538;
+    max-width: 1400px;
     margin: auto;
     font-family: light;
 }
 
 .maxima_logo {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 10%;
+    left: 0;
     z-index: 1002;
-    height: 3rem;
-    margin: 0.5rem;
+    height: 90%;
 }
 
 .berghoff_logo {
-    position: fixed;
+    position: absolute;
     top: 0;
-    right: 10%;
+    right: 0;
     z-index: 1002;
-    height: 4rem;
-    margin: 0;
+    height: 100%;
 }
 
 #nav-border {
     position: fixed;
     top: 0;
-    max-width: 1900px;
-    height: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    max-height: 60px;
+    /* line-height: 30%; */
     width: 100%;
-    display: inline-flex;
+    /* background-color: white; */
+    z-index: 1002;
+    overflow: hidden;
+}
+
+#nav-border-2 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    max-height: 50px;
+    width: 90%;
+    max-width: 1600px;
     background-color: white;
     z-index: 1001;
 }
 
 .nav_items_language {
-    position: relative;
-    left: 32%;
-    font-size: 1.6rem;
+    position: absolute;
+    right: 2.5%;
     display: inline-flex;
-    width: 10%;
+    max-width: 100px;
+    height: 100%;
     justify-content: center;
     font-family: bold;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .nav_items_menu {
-    position: relative;
+    position: fixed;
     left: 22%;
-    top: 1%;
-    font-size: 1.4rem;
     display: inline-flex;
+    height: 100%;
     gap: 20%;
     width: 60%;
     justify-content: center;
     font-family: bold;
     align-items: center;
+    font-size: 1.5rem;
+    white-space: nowrap;
 }
 
 .nav_items_language a {
-    color:  #135959;
+    color:  #063538;
     text-decoration: none;
 }
 
+.nav_items_language a:hover {
+    color: #05545a;
+    opacity: 0.8;
+}
+
 .nav_items_menu a {
-    color:  #135959;
+    color:  #063538;
     text-decoration: none;
     font-weight: bolder;
+}
+.nav_items_menu a:hover {
+    color: #05545a;
+    opacity: 0.8;
 }
 
 .nav_item {
@@ -100,63 +126,72 @@ body {
 
 .products_menu {
     position: fixed;
-    top: 3rem;
-    width: 30%;
-    height: 4rem;
-    display: block;
+    top: 3%;
+    left: 0;
+    width: 100%;
+    gap: 20px;
+    display: flex;
     justify-content: space-evenly;
     background-color: white;
     z-index: 1001;
-    padding-left: 38%;
-    padding-right: 30%;
+    justify-content: center;
+
 }
 
 .products_menu_item {
-    min-width: 110px;
+    min-width: 15%;
     text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
+    color: #FCF4DC;
+    font-size: 1.2rem;
     display: inline-flex;
-    margin: 5% 1%;
-    /* background-color: #135959 ; */
-    /* border: #135959 solid 1px; */
+    margin: 1% 1%;
+    background-color: #135959 ;
+    border: #135959 solid 1px;
     justify-content: center;
-    padding: 0.4%;
-    /* border-radius: 70px; */
+    padding: 0.3%;
+    border-radius: 70px;
 }
 
 .products_menu_item:hover {
-    color: #135959;
+    color: #063538;
     background-color: #FCF4DC;
+}
+
+.mga {
+    height: 15rem;;
 }
 
 .container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 4%;
     justify-content: center;
     display: table;
     table-layout: fixed;
     width: 90%;
-    margin-top: 1%;
+    /* margin-top: 10%; */
+    max-width: 1500px;
 }
 
 .container .product_section {
     display: table-cell;
     width: 50%;
-    vertical-align: middle;
     margin-top: 0;
+    padding: 20px !important;
+    max-width: 700px;
+    min-width: 600px;
 }
 
 .container .product_section .products {
+    position: absolute;
+    top: 0;
     display: flex;
-    gap: 20px 30px;
+    gap: 20px 20px;
     flex-wrap: wrap;
     width: 100%;
-    float: left;
-    margin-left: 5%;
-    margin-right: auto;
+    height: 100%;
+    justify-content: space-evenly !important;
+    max-width: 47.5%;
 }
 
 .container .product_section img {
@@ -164,14 +199,22 @@ body {
 }
 
 .container .card {
+    margin-top: 20px;
+    display: flex;
     position: relative;
-    width: 204.8px;
-    height: 288px;
-    background: #135959;
+    flex: 40%;
+    flex-wrap: wrap;
+    height: 45%;
+    background: radial-gradient( #05545a, #063538);;
     border-radius: 16px;
     overflow: hidden;
-    margin: 16px;
-    border: solid #135959 1px;
+    border: solid #063538 1px;
+    flex-grow: 2;
+}
+
+.container .card_pan {
+    flex: 48%;
+    flex-grow: 0;
 }
 
 .container .card:before {
@@ -182,49 +225,25 @@ body {
     width: 100%;
     height: 100%;
     background: #FCF4DC;
-    clip-path: circle(100px at 80% 20%);
-    transition: 0.5s ease-in-out;
-}
-
-.container .light_card {
-    position: relative;
-    width: 204.8px;
-    height: 288px;
-    background:#FCF4DC;
-    border-radius: 16px;
-
-    overflow: hidden;
-    margin: 16px;
-    border: solid #FCF4DC 1.6px;
-}
-
-.container .light_card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #135959;
-    clip-path: circle(102.4px at 80% 20%);
+    clip-path: circle(40% at 80% 18%);
     transition: 0.5s ease-in-out;
 }
 
 .container .card:hover:before {
-    clip-path: circle(192px at 80% -20%);
+    clip-path: circle(80% at 80% -20%);
 }
 
 .container .card:after {
-    content: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
-    width: 800px;
+    content: "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+    width: 350px;
     position: absolute;
     top: 0%;
     left: 0%;
-    font-size: 3.2em;
+    font-size: 6em;
     font-weight: 800;
     font-style: italic;
     color: rgba(252, 244, 220, 0.1);
-    /* transform: rotate(-30deg); */
+    line-height: 30px;
 }
 
 .container .card .imgBx {
@@ -277,25 +296,21 @@ body {
 }
 
 .container .card:hover .contentBx {
-    height: 152px;
+    height: 48%;
 }
 
 .container .card3:hover .contentBx {
-    height: 120px;
+    height: 44%;
 }
 
 .container .card .contentBx h2 {
     position: relative;
-    font-size: 16px;
+    font-size: 120%;
     font-weight: 600;
     letter-spacing: 2.4px;
     color: #fff;
     margin: 2.4px;
     word-spacing: 4px;
-}
-
-.container .light_card .contentBx h2 {
-    color: #135959;
 }
 
 .container .card .contentBx .size {
@@ -317,14 +332,10 @@ body {
 .container .card .contentBx .size h3 {
     color: white;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 1.6px;
     margin-right: 8px;
-}
-
-.container .light_card .contentBx .size h3 {
-    color: #135959;
 }
 
 .sticker {

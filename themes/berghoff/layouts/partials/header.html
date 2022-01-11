@@ -1,6 +1,6 @@
 <div id="page_header">
     <div id="nav-border">
-        <nav id="nav" class="nav_items_menu sticky">
+        <nav id="nav" class="nav_items_menu">
             {{ range .Site.Menus.main }}
                 <a href="{{ .URL | absLangURL }}" class="nav_item">
                 {{ $text := print .Name }}
@@ -14,6 +14,8 @@
             {{ end}}
         </nav>
     </div>
-    <img src="images/Berghoff_black.png" alt="bergHOFF" class="berghoff_logo"></img>
-    <img src="images/maxima.png" alt="Maxima" class="maxima_logo"></img>
+    <div id="nav-border-2">
+        <img src="images/berghoff_logo.png" alt="bergHOFF" class="berghoff_logo"></img>
+        <img src="images/maxima_logo.png" alt="Maxima" class="maxima_logo"></img>
+    </div>
 </div>
