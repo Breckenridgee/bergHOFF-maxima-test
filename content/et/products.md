@@ -13,9 +13,9 @@ title: "ET Products"
         </div>
         <div class="product_section">
             <div class="products">
-                <div id="pan_1" class="card2 card">
+                <div id="pan_1" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950298_002.png" alt="PRAEPANN">
+                        <img src="images/web_3950298_001.png" alt="PRAEPANN">
                     </div>
                     <span class="promotion"> -69% </span>
                     <div class="contentBx">
@@ -30,9 +30,9 @@ title: "ET Products"
                         </div>
                     </div>
                 </div>
-                <div id="pan_2" class="card2 card">
+                <div id="pan_2" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950297_002.png" alt="PRAEPANN" style="width:70%">
+                        <img src="images/web_3950297_001.png" alt="PRAEPANN" style="width:80%">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
@@ -47,9 +47,9 @@ title: "ET Products"
                         </div>
                     </div>
                 </div>
-                <div id="pan_3" class="card2 card">
+                <div id="pan_3" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950296_002.png" alt="PRAEPANN" style="width:60%">
+                        <img src="images/web_3950296_001.png" alt="PRAEPANN" style="width:70%">
                     </div>
                     <span class="promotion"> -72% </span>
                     <div class="contentBx">
@@ -64,9 +64,9 @@ title: "ET Products"
                         </div>
                     </div>
                 </div>
-                <div id="pan_4" class="card2 card">
+                <div id="pan_4" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950299_002.png" alt="GRILLPANN">
+                        <img src="images/web_3950299_001.png" alt="GRILLPANN">
                     </div>
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
@@ -81,9 +81,9 @@ title: "ET Products"
                         </div>
                     </div>
                 </div>
-                <div id="pan_5" class="card2 card">
+                <div id="pan_5" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950305_002.png" alt="KAANEGA WOK-PANN">
+                        <img src="images/web_3950305_001.png" alt="KAANEGA WOK-PANN">
                     </div>
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
