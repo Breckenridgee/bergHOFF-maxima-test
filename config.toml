@@ -15,15 +15,15 @@ defaultContentLanguage = 'et'
     [languages.et.menu]
       [[languages.et.menu.main]]
         identifier = 'rules'
-        name = 'ET Rules'
+        name = 'Reeglid'
         url = '/'
         weight = 10
       [[languages.et.menu.main]]
-        name = 'ET Products'
+        name = 'Tooted'
         url = '/products/'
         weight = 20
       [[languages.et.menu.main]]
-        name = 'ET Special promotion'
+        name = 'Eripakkumised'
         url = '/special-promotion/'
         weight = 30
   [languages.ru]
@@ -33,14 +33,14 @@ defaultContentLanguage = 'et'
     [languages.ru.menu]
       [[languages.ru.menu.main]]
         identifier = 'rules'
-        name = 'RU Rules'
+        name = 'правила'
         url = '/'
         weight = 10
       [[languages.ru.menu.main]]
-        name = 'RU Products'
+        name = 'продукты'
         url = '/products/'
         weight = 20
       [[languages.ru.menu.main]]
-        name = 'RU Special promotion'
+        name = 'специальные предложения'
         url = '/special-promotion/'
         weight = 30

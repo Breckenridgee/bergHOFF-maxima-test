@@ -81,6 +81,23 @@ title: "ET Products"
                         </div>
                     </div>
                 </div>
+                <div id="pan_5" class="card2 card">
+                    <div class="imgBx">
+                        <img src="images/web_3950305_002.png" alt="KAANEGA WOK-PANN">
+                    </div>
+                    <span class="promotion"> -64% </span>
+                    <div class="contentBx">
+                        <h2>KAANEGA WOK-PANN</h2>
+                        <div class="size">
+                            <h3>&empty; 28cm</h3>
+                            <div class="sticker_content">
+                                <h2>5 X</h2>
+                                <img class="sticker" src="images/sticker.png" alt="sticker">
+                            </div>
+                            <h2><s style="font-size: 70%">99.95</s> 34.99&euro;</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -107,23 +124,6 @@ title: "ET Products"
                     </div>
                     <div id="pot_2" class="light_card card">
                         <div class="imgBx">
-                            <img src="images/web_3950304_001.png" alt="KAANEGA WOK-PANN">
-                        </div>
-                        <span class="promotion"> -64% </span>
-                        <div class="contentBx">
-                            <h2>KAANEGA WOK-PANN</h2>
-                            <div class="size">
-                                <h3>&empty; 28cm</h3>
-                                <div class="sticker_content">
-                                    <h2>5 X</h2>
-                                    <img class="sticker" src="images/sticker.png" alt="sticker">
-                                </div>
-                                <h2><s style="font-size: 70%">99.95</s> 34.99&euro;</h2>
-                            </div>
-                        </div>
-                    </div>
-                        <div id="pot_3" class="light_card card">
-                        <div class="imgBx">
                             <img src="images/web_3950300_001.png" alt="KAANEGA KASTRUL">
                         </div>
                         <span class="promotion"> -68% </span>
@@ -139,7 +139,7 @@ title: "ET Products"
                             </div>
                         </div>
                     </div>
-                    <div id="pot_4" class="light_card card">
+                    <div id="pot_3" class="light_card card">
                         <div class="imgBx">
                             <img src="images/web_3950303_001.png" alt="KAANEGA SUPIPOTT">
                         </div>
@@ -153,6 +153,23 @@ title: "ET Products"
                                     <img class="sticker" src="images/sticker.png" alt="sticker">
                                 </div>
                                 <h2><s style="font-size: 70%">91.95</s> 28.99&euro;</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pot_4" class="light_card card">
+                        <div class="imgBx">
+                            <img src="images/web_3950304_001.png" alt="KAANEGA HAUDENÕU">
+                        </div>
+                        <span class="promotion"> -65% </span>
+                        <div class="contentBx">
+                            <h2>KAANEGA HAUDENÕU</h2>
+                            <div class="size">
+                                <h3>&empty; 28cm</h3>
+                                <div class="sticker_content">
+                                    <h2>5 X</h2>
+                                    <img class="sticker" src="images/sticker.png" alt="sticker">
+                                </div>
+                                <h2><s style="font-size: 70%">94.95</s> 32.99&euro;</h2>
                             </div>
                         </div>
                     </div>
