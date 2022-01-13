@@ -11,7 +11,7 @@ title: "ET Products"
     </div>
     <div class="container">
         <div class="product_section">
-            <img src="images/pans_features.jpg" alt="berghoff_image">
+            <img src="images/products_pans.jpg" alt="berghoff_image">
         </div>
         <div class="product_section">
             <div class="products">
@@ -179,15 +179,15 @@ title: "ET Products"
             </div>
         </div>
         <div class="product_section">
-            <img src="images/pots_features.jpg" alt="berghoff_image">
+            <img src="images/products_pots.jpg" alt="berghoff_image">
         </div>
-    <!-- </div> -->
+    </div>
     </div>
     <div id="accessories" class="mga">
     </div>
     <div id="accessories" class="container">
         <div class="product_section">
-            <img src="images/3950154_LEO_AT_PIC_003.jpg" alt="berghoff_image">
+            <img src="images/products_accessories.jpg" alt="berghoff_image">
         </div>
         <div class="product_section">
             <div class="products">

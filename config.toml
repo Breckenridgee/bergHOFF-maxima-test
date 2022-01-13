@@ -19,6 +19,7 @@ defaultContentLanguage = 'et'
         url = '/'
         weight = 10
       [[languages.et.menu.main]]
+        identifier = 'products'
         name = 'Tooted'
         url = '/products/'
         weight = 20

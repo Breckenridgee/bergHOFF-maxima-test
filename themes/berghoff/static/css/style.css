@@ -38,7 +38,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     height: 100%;
-    max-height: 60px;
+    max-height: 4vw;
     width: 100%;
     z-index: 1001;
     overflow: hidden;
@@ -132,7 +132,7 @@ body {
 
 .products_menu {
     position: fixed;
-    top: 4%;
+    top: 4vw;
     left: 0;
     width: 100%;
     gap: 20px;
@@ -164,7 +164,7 @@ body {
 }
 
 .mga {
-    height: 15rem;;
+    height: 12vh;
 }
 
 .container {
@@ -182,7 +182,7 @@ body {
     display: table-cell;
     width: 50%;
     margin-top: 0;
-    padding: 20px !important;
+    padding: 0 20px !important;
     max-width: 700px;
     min-width: 600px;
 }
@@ -191,12 +191,12 @@ body {
     position: absolute;
     top: 0;
     display: flex;
-    gap: 20px 20px;
+    gap: 15px 15px;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     justify-content: space-evenly !important;
-    max-width: 47.5%;
+    max-width: 46%;
 }
 
 .container .product_section img {
@@ -204,12 +204,11 @@ body {
 }
 
 .container .card {
-    margin-top: 20px;
     display: flex;
     position: relative;
     flex: 40%;
     flex-wrap: wrap;
-    height: 45%;
+    max-height: 350px;
     background: radial-gradient( #05545a, #063538);;
     border-radius: 16px;
     overflow: hidden;
@@ -278,7 +277,7 @@ body {
 
 .container .card3s:hover .imgBx {
     top: 0%;
-    transform: translateY(-25%) rotate(-20deg);
+    transform: translateY(-20%) rotate(-20deg);
 }
 
 .container .card .imgBx img {
@@ -301,11 +300,11 @@ body {
 }
 
 .container .card:hover .contentBx {
-    height: 45%;
+    height: 40%;
 }
 
 .container .card3:hover .contentBx {
-    height: 40%;
+    height: 35%;
 }
 
 .container .card .contentBx h2 {
@@ -314,7 +313,7 @@ body {
     font-weight: 600;
     letter-spacing: 2.4px;
     color: #fff;
-    margin: 2.4px;
+    margin: 1.5px;
     word-spacing: 4px;
     line-height: 0.5vw;
 }
@@ -323,7 +322,7 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 6.4px 6.4px;
+    padding: 3px 3px;
     transition: .5s;
     opacity: 0;
     visibility: hidden;
@@ -342,11 +341,12 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.6px;
     margin-right: 8px;
-    line-height: 0.5vw;
+    line-height: 1.2vw;
+    margin: 6px;
 }
 
 .sticker {
-    height: 56px;
+    height: 4vw;
 }
 .sticker_content {
     display: inline-flex;
