@@ -3,9 +3,9 @@ title: "ET Products"
 ---
 <div>
     <div class="products_menu">
-        <a class="products_menu_item" href="products#pans">сковородки</a>
-        <a class="products_menu_item" href="products#pots">кастрюли</a>
-        <a class="products_menu_item" href="products#accessories">аксессуары</a>
+        <a class="products_menu_item" href="ru/products#pans">Pnnid</a>
+        <a class="products_menu_item" href="ru/products#pots">Potid</a>
+        <a class="products_menu_item" href="ru/products#accessories">Tarvikud</a>
     </div>
     <div id="pans" class="mga">
     </div>
@@ -17,11 +17,11 @@ title: "ET Products"
             <div class="products">
                 <div id="pan_1" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950298_001.png" alt="PRAEPANN">
+                        <img src="images/web_3950298_001.png" alt="СКОВОРОДА">
                     </div>
                     <span class="promotion"> -69% </span>
                     <div class="contentBx">
-                        <h2>PRAEPANN</h2>
+                        <h2>СКОВОРОДА</h2>
                         <div class="size">
                             <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
@@ -34,11 +34,11 @@ title: "ET Products"
                 </div>
                 <div id="pan_2" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950297_001.png" alt="PRAEPANN" style="width:80%">
+                        <img src="images/web_3950297_001.png" alt="СКОВОРОДА" style="width:80%">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
-                        <h2>PRAEPANN</h2>
+                        <h2>СКОВОРОДА</h2>
                         <div class="size">
                             <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
@@ -51,11 +51,11 @@ title: "ET Products"
                 </div>
                 <div id="pan_3" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950296_001.png" alt="PRAEPANN" style="width:70%">
+                        <img src="images/web_3950296_001.png" alt="СКОВОРОДА" style="width:70%">
                     </div>
                     <span class="promotion"> -72% </span>
                     <div class="contentBx">
-                        <h2>PRAEPANN</h2>
+                        <h2>СКОВОРОДА</h2>
                         <div class="size">
                             <h3>&empty; 20cm</h3>
                             <div class="sticker_content">
@@ -68,11 +68,11 @@ title: "ET Products"
                 </div>
                 <div id="pan_4" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950299_001.png" alt="GRILLPANN">
+                        <img src="images/web_3950299_001.png" alt="СКОВОРОДА-ГРИЛЬ">
                     </div>
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
-                        <h2>GRILLPANN</h2>
+                        <h2>СКОВОРОДА-ГРИЛЬ</h2>
                         <div class="size">
                             <h3>&empty; 26cm</h3>
                             <div class="sticker_content">
@@ -85,11 +85,11 @@ title: "ET Products"
                 </div>
                 <div id="pan_5" class="card_pan card">
                     <div class="imgBx">
-                        <img src="images/web_3950305_001.png" alt="KAANEGA WOK-PANN">
+                        <img src="images/web_3950305_001.png" alt="СКОВОРОДА ВОК С КРЫШКОЙ">
                     </div>
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
-                        <h2>KAANEGA WOK-PANN</h2>
+                        <h2>СКОВОРОДА ВОК С КРЫШКОЙ</h2>
                         <div class="size">
                             <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
@@ -110,11 +110,11 @@ title: "ET Products"
             <div class="products">
                 <div id="pot_1" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950301_001.png" alt="KAANEGA HAUDENÕU">
+                        <img src="images/web_3950301_001.png" alt="ЖАРОПРОЧНАЯ КАСТРЮЛЯ С КРЫШКОЙ">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
-                        <h2>KAANEGA HAUDENÕU</h2>
+                        <h2>ЖАРОПРОЧНАЯ КАСТРЮЛЯ С КРЫШКОЙ</h2>
                         <div class="size">
                             <h3>&empty; 20cm</h3>
                             <div class="sticker_content">
@@ -127,11 +127,11 @@ title: "ET Products"
                 </div>
                 <div id="pot_2" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950300_001.png" alt="KAANEGA KASTRUL">
+                        <img src="images/web_3950300_001.png" alt="СОТЕЙНИК С КРЫШКОЙ">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
-                        <h2>KAANEGA KASTRUL</h2>
+                        <h2>СОТЕЙНИК С КРЫШКОЙ</h2>
                         <div class="size">
                             <h3>&empty; 18cm</h3>
                             <div class="sticker_content">
@@ -144,11 +144,11 @@ title: "ET Products"
                 </div>
                 <div id="pot_3" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950303_001.png" alt="KAANEGA SUPIPOTT">
+                        <img src="images/web_3950303_001.png" alt="СУПОВАЯ КАСТРЮЛЯ С КРЫШКОЙ">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
-                        <h2>KAANEGA SUPIPOTT</h2>
+                        <h2>СУПОВАЯ КАСТРЮЛЯ СКРЫШКОЙ</h2>
                         <div class="size">
                             <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
@@ -161,11 +161,11 @@ title: "ET Products"
                 </div>
                 <div id="pot_4" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950304_001.png" alt="KAANEGA HAUDENÕU">
+                        <img src="images/web_3950304_001.png" alt="СОТЕЙНИК С КРЫШКОЙ И ДВУМЯ РУЧКАМИ">
                     </div>
                     <span class="promotion"> -65% </span>
                     <div class="contentBx">
-                        <h2>KAANEGA HAUDENÕU</h2>
+                        <h2>СОТЕЙНИК С КРЫШКОЙ И ДВУМЯ РУЧКАМИ</h2>
                         <div class="size">
                             <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
@@ -182,6 +182,7 @@ title: "ET Products"
             <img src="images/products_pots.jpg" alt="berghoff_image">
         </div>
     </div>
+    </div>
     <div id="accessories" class="mga">
     </div>
     <div id="accessories" class="container">
@@ -192,11 +193,11 @@ title: "ET Products"
             <div class="products">
                 <div id="accessory_1" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950014_002.png" alt="PUDRUNUI">
+                        <img src="images/web_3950014_002.png" alt="ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
-                        <h2>PUDRUNUI</h2>
+                        <h2>ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ</h2>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -208,11 +209,11 @@ title: "ET Products"
                 </div>
                 <div id="accessory_2" class="card3s card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950152_001.png" alt="AURUTUSREST-SÕEL" style="width: 70%">
+                        <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width: 70%">
                     </div>
                     <span class="promotion"> -61% </span>
                     <div class="contentBx">
-                        <h2>AURUTUSREST-SÕEL</h2>
+                        <h2>ПАРОВАРКА-ДУРШЛАГ</h2>
                         <div class="size">
                             <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
@@ -225,11 +226,11 @@ title: "ET Products"
                 </div>
                 <div id="accessory_3" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950154_001.png" alt="SPAATEL">
+                        <img src="images/web_3950154_001.png" alt="ЛОПАТКА">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
-                        <h2>SPAATEL</h2>
+                        <h2>ЛОПАТКА</h2>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -241,11 +242,11 @@ title: "ET Products"
                 </div>
                 <div id="accessory_4" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950156_001.png" alt="PANNILABIDAS">
+                        <img src="images/web_3950156_001.png" alt="ЛОПАТКА ДЛЯ СКОВОРОДЫ">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
-                        <h2>PANNILABIDAS</h2>
+                        <h2>ЛОПАТКА ДЛЯ СКОВОРОДЫ</h2>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
