@@ -3,9 +3,9 @@ title: "ET Products"
 ---
 <div>
     <div class="products_menu">
-        <a class="products_menu_item" href="ru/products#pans">Pnnid</a>
-        <a class="products_menu_item" href="ru/products#pots">Potid</a>
-        <a class="products_menu_item" href="ru/products#accessories">Tarvikud</a>
+        <a class="products_menu_item" href="ru/products#pans">сковородки</a>
+        <a class="products_menu_item" href="ru/products#pots">кастрюли</a>
+        <a class="products_menu_item" href="ru/products#accessories">аксессуары</a>
     </div>
     <div id="pans" class="mga">
     </div>
