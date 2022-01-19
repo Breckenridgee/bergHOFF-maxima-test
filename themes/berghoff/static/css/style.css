@@ -433,11 +433,15 @@ body {
         padding: 0;
     }
     .maxima_logo {
+        margin-top: 10px;
         max-height: 30px;
-        left: 50px;
+        left: 48%;
+        transform: translateX(-100%);
     }
     .berghoff_logo {
+        margin-top: 10px;
         max-height: 40px;
+        left: 52%;
     }
     .ham-menu {
         height: 20%;
