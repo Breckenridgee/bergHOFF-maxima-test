@@ -481,7 +481,7 @@ body {
         z-index: 2000;
         width: 40px;
         height: 40px;
-        background-color: var(--home-bg-color);
+        /* background-color: var(--home-bg-color); */
         border-radius: 7.5px;
         /* border: 2px solid var(--border-color); */
     }
@@ -556,7 +556,7 @@ body {
         display: block;
         width: 20px;
         height: 2px;
-        margin: 4.5px 0 2.25px;
+        margin: 7px 0 2.25px;
         border-top-left-radius: 1px;
         border-bottom-left-radius: 1px;
         background-color: var(--border-color);
@@ -578,6 +578,7 @@ body {
     #ham-menu:checked + label span:nth-child(2),
     #ham-menu:checked + label span:nth-child(5) {
         transform: scale(0);
+        background-color: var(--border-color);
     }
     #ham-menu:checked + label span:nth-child(1) {
         transform: translateY(8.5px) rotate(45deg);
