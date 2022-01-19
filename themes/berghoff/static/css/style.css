@@ -620,8 +620,8 @@ body {
         font-family: bold;
     }
     .ham-menu a {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 20px;
         word-spacing: 0.5em;
         letter-spacing: 0.1em;
         font-family: light;
@@ -633,7 +633,7 @@ body {
         white-space: normal;
     }
     .ham-menu a:hover {
-        font-size: 23px;
+        font-size: 20px;
     }
     .ham-menu a::after {
         display: inline-block;
