@@ -10,7 +10,7 @@
 body {
     background: white;
     color: #063538;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     font-family: light;
     margin-top: 1%;
@@ -157,29 +157,38 @@ body {
     justify-content: center;
     display: table;
     table-layout: fixed;
-    width: 90%;
     max-width: 1500px;
 }
+
+/* @media screen and (max-width: 1600px) {
+    .nav_items_language {
+       font-size: 30px;
+    }
+    .nav_items_menu {
+        font-size: 30px;
+    }
+  } */
 
 .container .product_section {
     display: table-cell;
     width: 50%;
     margin-top: 0;
     padding: 0 20px !important;
-    max-width: 700px;
-    min-width: 600px;
+    max-width: 740px;
+    min-width: 500px;
+    max-height: 1200px;
 }
 
 .container .product_section .products {
     position: absolute;
     top: 0;
     display: flex;
-    gap: 45px 15px;
+    gap: 20px 20px;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     justify-content: space-evenly !important;
-    max-width: 47%;
+    max-width: 48%;
 }
 
 .container .product_section img {
@@ -191,8 +200,11 @@ body {
     position: relative;
     flex: 40%;
     flex-wrap: wrap;
-    max-height: 350px;
-    background: radial-gradient( #05545a, #063538);;
+    max-height: 442px;
+    max-width: 340px;
+    min-height: 270px;
+    min-width: 200px;
+    background: radial-gradient( #05545a, #063538);
     border-radius: 16px;
     overflow: hidden;
     border: solid #063538 1px;
@@ -217,7 +229,7 @@ body {
 }
 
 .container .card:hover:before {
-    clip-path: circle(75% at 80% -22%);
+    clip-path: circle(75% at 55% -22%);
 }
 
 .container .card:after {
@@ -272,43 +284,65 @@ body {
     width: 80%;
 }
 
+.container .card3 .imgBx img {
+    top: 45%;
+}
+
 .container .card .contentBx {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 80px;
+    height: 35%;
     text-align: center;
     transition: 1s;
     z-index: 90;
 }
 
 .container .card:hover .contentBx {
-    height: 12vw;
-    max-height: 150px;
+    height: 50%;
 }
 
 .container .card3:hover .contentBx {
-    height: 12vw;
-    max-height: 150px;
+    height: 40%;
 }
 
-.container .card .contentBx h2 {
+.container .card .contentBx h2, h3 {
     position: relative;
-    font-size: 1.4vh;
+    font-size: 2vh;
     font-weight: 600;
     letter-spacing: 2.4px;
     color: #fff;
-    margin: 2px;
+    margin: 8px 0 0 0;
     word-spacing: 4px;
-    line-height: 1.4vh;
+    line-height: 2vh;
     font-weight: lighter;
 }
+
+.container .card .contentBx h3 {
+    font-size: 1.8vh;
+    line-height: 1.8vh;
+}
+
+.container .card .contentBx s {
+    color: red;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+    .container .card .contentBx h2 {
+       font-size: 15px;
+       line-height: 15px;
+    }
+    .container .card .contentBx h3 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+  }
 
 .container .card .contentBx .size {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 3px 3px;
     transition: .5s;
     opacity: 0;
     visibility: hidden;
@@ -332,27 +366,30 @@ body {
 }
 
 .sticker {
-    height: 4vh;
+    min-height: 40px;
+    max-height: 80px;
 }
 
 .sticker_content {
     display: inline-flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .promotion {
     position: absolute;
-    top: 5%;
-    right: 5%;
-    width: 60px;
-    height: 60px;
+    top: 3%;
+    right: 3%;
+    width: 80px;
+    height: 80px;
     background: red;
     border-radius: 50%;
     margin: 0 5px;
     text-align: center;
     color: white;
-    font-size: 20px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 80px;
 }
 
 .container .card:hover .promotion {
