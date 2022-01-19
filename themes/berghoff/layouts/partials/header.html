@@ -16,4 +16,32 @@
     </div>
     <img src="images/berghoff_logo.png" alt="bergHOFF" class="berghoff_logo"></img>
     <img src="images/maxima_logo.png" alt="Maxima" class="maxima_logo"></img>
+
+    <input type="checkbox" id="ham-menu">
+    <label for="ham-menu">
+    <div class="hide-des">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+    </div>
+    </label>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+        <ul class="centre-text bold-text">
+            {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL | absLangURL }}">
+                        {{ $text := print .Name }}
+                        {{ $text }}
+                    </a>
+                </li>
+            {{ end }}
+            <div style="height: 200px;"></div>
+            {{ range .AllTranslations }}
+                <li>
+                    <a href="{{ .Permalink }}" class="nav_item">{{ .Language.LanguageName }}</a>
+                </li>
+            {{ end}}
+        </ul>
+    </div>
 </div>
