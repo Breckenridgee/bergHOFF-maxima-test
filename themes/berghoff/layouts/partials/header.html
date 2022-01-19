@@ -36,7 +36,10 @@
                     </a>
                 </li>
             {{ end }}
-            <div style="height: 200px;"></div>
+        </ul>
+    </div>
+    <div class="ham-menu" style="top:70%; height: 30%">
+        <ul style="flex-flow: row;">
             {{ range .AllTranslations }}
                 <li>
                     <a href="{{ .Permalink }}" class="nav_item">{{ .Language.LanguageName }}</a>
