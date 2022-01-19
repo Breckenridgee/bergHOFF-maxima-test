@@ -3,7 +3,7 @@ title: "ET Products"
 ---
 <div>
     <div class="products_menu">
-        <a class="products_menu_item" href="products#pans">Pnnid</a>
+        <a class="products_menu_item" href="products#pans">Pannid</a>
         <a class="products_menu_item" href="products#pots">Potid</a>
         <a class="products_menu_item" href="products#accessories">Tarvikud</a>
     </div>
