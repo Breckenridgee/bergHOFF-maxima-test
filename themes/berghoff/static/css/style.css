@@ -559,6 +559,15 @@ body {
         min-height: 400px !important;
     }
 
+    .container .card .contentBx .size {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        transition: .5s;
+        opacity: 1;
+        visibility: visible;
+    }
+
     *,
     *::before,
     *::after {
