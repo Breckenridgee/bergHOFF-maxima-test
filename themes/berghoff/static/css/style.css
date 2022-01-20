@@ -264,11 +264,6 @@ body {
     transform: translateY(-25%) rotate(-20deg);
 }
 
-.container .card2:hover .imgBx {
-    top: 0%;
-    transform: translateY(-25%) rotate(-75deg);
-}
-
 .container .card3:hover .imgBx {
     top: 0%;
     transform: translateY(-30%) rotate(-75deg);
@@ -574,6 +569,20 @@ body {
 
     .container .card3 .contentBx {
         height: 40% !important;
+    }
+
+    .container .card .imgBx {
+        top: 0%;
+        transform: translateY(-25%) rotate(-20deg);
+    }
+    .container .card3 .imgBx {
+        top: 0%;
+        transform: translateY(-30%) rotate(-75deg);
+    }
+
+    .container .card3s .imgBx {
+        top: 0%;
+        transform: translateY(-20%) rotate(-20deg);
     }
 
     *,
