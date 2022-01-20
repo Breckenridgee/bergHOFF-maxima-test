@@ -549,10 +549,12 @@ body {
 
     .card {
         min-height: 400px !important;
+        flex-grow: 1;
     }
 
     .card3 {
         min-height: 400px !important;
+        flex-grow: 1;
     }
 
     *,
