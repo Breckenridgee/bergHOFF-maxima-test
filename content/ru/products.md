@@ -7,7 +7,7 @@ title: "ET Products"
         <a class="products_menu_item" href="ru/products#pots">кастрюли</a>
         <a class="products_menu_item" href="ru/products#accessories">аксессуары</a>
     </div>
-    <div id="pans" class="mga">
+    <div id="pans" class="distance">
     </div>
     <div class="container">
         <div class="product_section">
@@ -103,7 +103,7 @@ title: "ET Products"
             </div>
         </div>
     </div>
-    <div id="pots" class="mga">
+    <div id="pots" class="distance">
     </div>
     <div class="container">
         <div class="product_section">
@@ -183,7 +183,7 @@ title: "ET Products"
         </div>
     </div>
     </div>
-    <div id="accessories" class="mga">
+    <div id="accessories" class="distance">
     </div>
     <div id="accessories" class="container">
         <div class="product_section">

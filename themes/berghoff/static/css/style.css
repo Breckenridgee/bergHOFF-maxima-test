@@ -108,12 +108,6 @@ body {
     opacity: 0.8;
 }
 
-.page_img img {
-    width: 100%;
-    margin-bottom: 50px;
-    display: block;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -154,7 +148,7 @@ body {
     background-color: #FCF4DC;
 }
 
-.mga {
+.distance {
     height: 18vh;
 }
 
