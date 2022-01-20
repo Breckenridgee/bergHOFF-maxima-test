@@ -135,13 +135,19 @@ body {
     width: 20%;
     text-decoration: none;
     color: #FCF4DC;
-    font-size: 1.2rem;
+    font-size: 2.2vw;
     display: inline-flex;
     background-color: #135959 ;
     border: #135959 solid 1px;
     border-radius: 16px;
     justify-content: center;
 }
+
+@media screen and (min-width: 1600px) {
+    .products_menu_item {
+        font-size: 30px;
+    }
+  }
 
 .products_menu_item:hover {
     color: #063538;
@@ -569,7 +575,7 @@ body {
     }
 
     .distance {
-        height: 100px;
+        height: 130px;
     }
 
     .footer {
