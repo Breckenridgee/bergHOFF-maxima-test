@@ -61,7 +61,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     display: inline-flex;
-    height: 120%;
     text-align: center;
     margin: 0 auto;
     gap: 10px;
@@ -116,7 +115,7 @@ body {
 
 .products_menu {
     position: fixed;
-    top: 80px;
+    top: 100px;
     left: 0;
     width: 100%;
     gap: 20px;
