@@ -417,6 +417,8 @@ body {
     width: 90%;
     border-top: #063538 8px solid;
     border-bottom: #063538 8px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .no_promotion p {
