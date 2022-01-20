@@ -22,13 +22,13 @@ title: "ET Products"
                     <span class="promotion"> -69% </span>
                     <div class="contentBx">
                         <h2>СКОВОРОДА</h2>
+                        <h3>&empty; 28cm</h3>
+                        <h1><s>54.95</s> 16.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">54.95</s> 16.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -39,13 +39,13 @@ title: "ET Products"
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
                         <h2>СКОВОРОДА</h2>
+                        <h3>&empty; 24cm</h3>
+                        <h1><s>43.95</s> 13.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">43.95</s> 13.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -56,13 +56,13 @@ title: "ET Products"
                     <span class="promotion"> -72% </span>
                     <div class="contentBx">
                         <h2>СКОВОРОДА</h2>
+                        <h3>&empty; 20cm</h3>
+                        <h1><s>36.95</s> 9.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 20cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">36.95</s> 9.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -73,13 +73,13 @@ title: "ET Products"
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
                         <h2>СКОВОРОДА-ГРИЛЬ</h2>
+                        <h3>&empty; 26cm</h3>
+                        <h1><s>58.95</s> 20.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 26cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">58.95</s> 20.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -90,13 +90,13 @@ title: "ET Products"
                     <span class="promotion"> -64% </span>
                     <div class="contentBx">
                         <h2>СКОВОРОДА ВОК С КРЫШКОЙ</h2>
+                        <h3>&empty; 28cm</h3>
+                        <h1><s>99.95</s> 34.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">99.95</s> 34.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -106,6 +106,9 @@ title: "ET Products"
     <div id="pots" class="distance">
     </div>
     <div class="container">
+        <div class="product_section mobile">
+            <img src="images/products_pots.jpg" alt="berghoff_image">
+        </div>
         <div class="product_section">
             <div class="products">
                 <div id="pot_1" class="card">
@@ -115,13 +118,13 @@ title: "ET Products"
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
                         <h2>ЖАРОПРОЧНАЯ КАСТРЮЛЯ С КРЫШКОЙ</h2>
+                        <h3>&empty; 20cm</h3>
+                        <h1><s>65.95</s> 20.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 20cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">65.95</s> 20.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -132,30 +135,30 @@ title: "ET Products"
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
                         <h2>СОТЕЙНИК С КРЫШКОЙ</h2>
+                        <h3>&empty; 18cm</h3>
+                        <h1><s>63.95</s> 19.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 18cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">63.95</s> 19.99&euro;</h2>
                         </div>
                     </div>
                 </div>
                 <div id="pot_3" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950303_001.png" alt="СУПОВАЯ КАСТРЮЛЯ С КРЫШКОЙ">
+                        <img src="images/web_3950303_001.png" alt="СУПОВАЯ КАСТРЮЛЯ СКРЫШКОЙ">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
                         <h2>СУПОВАЯ КАСТРЮЛЯ СКРЫШКОЙ</h2>
+                        <h3>&empty; 24cm</h3>
+                        <h1><s>91.95</s> 28.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">91.95</s> 28.99&euro;</h2>
                         </div>
                     </div>
                 </div>
@@ -166,26 +169,25 @@ title: "ET Products"
                     <span class="promotion"> -65% </span>
                     <div class="contentBx">
                         <h2>СОТЕЙНИК С КРЫШКОЙ И ДВУМЯ РУЧКАМИ</h2>
+                        <h3>&empty; 28cm</h3>
+                        <h1><s>94.95</s> 32.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 28cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">94.95</s> 32.99&euro;</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="product_section">
+        <div class="product_section no-mobile">
             <img src="images/products_pots.jpg" alt="berghoff_image">
         </div>
     </div>
-    </div>
     <div id="accessories" class="distance">
     </div>
-    <div id="accessories" class="container">
+    <div class="container">
         <div class="product_section">
             <img src="images/products_accessories.jpg" alt="berghoff_image">
         </div>
@@ -193,66 +195,66 @@ title: "ET Products"
             <div class="products">
                 <div id="accessory_1" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950014_002.png" alt="ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ">
+                        <img src="images/web_3950014_002.png" alt="ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ" style="width:70%">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ</h2>
+                        <h1><s>12.95</s> 3.79&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">12.95</s> 3.79&euro;</h2>
                         </div>
                     </div>
                 </div>
                 <div id="accessory_2" class="card3s card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width: 70%">
+                        <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width:70%">
                     </div>
                     <span class="promotion"> -61% </span>
                     <div class="contentBx">
                         <h2>ПАРОВАРКА-ДУРШЛАГ</h2>
+                        <h3>&empty; 24cm</h3>
+                        <h1><s>41.95</s> 15.99&euro;</h1>
                         <div class="size">
-                            <h3>&empty; 24cm</h3>
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">41.95</s> 15.99&euro;</h2>
                         </div>
                     </div>
                 </div>
                 <div id="accessory_3" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950154_001.png" alt="ЛОПАТКА">
+                        <img src="images/web_3950154_001.png" alt="ЛОПАТКА" style="width:80%">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>ЛОПАТКА</h2>
+                        <h1><s>9.95</s> 2.89&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">9.95</s> 2.89&euro;</h2>
                         </div>
                     </div>
                 </div>
                 <div id="accessory_4" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950156_001.png" alt="ЛОПАТКА ДЛЯ СКОВОРОДЫ">
+                        <img src="images/web_3950156_001.png" alt="ЛОПАТКА ДЛЯ СКОВОРОДЫ" style="width:70%">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>ЛОПАТКА ДЛЯ СКОВОРОДЫ</h2>
+                        <h1><s>12.95</s> 3.79&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
                                 <img class="sticker" src="images/sticker.png" alt="sticker">
                             </div>
-                            <h2><s style="font-size: 70%">12.95</s> 3.79&euro;</h2>
                         </div>
                     </div>
                 </div>
