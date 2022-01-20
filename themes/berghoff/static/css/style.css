@@ -137,7 +137,7 @@ body {
 }
 
 .products_menu_item {
-    min-width: 15%;
+    min-width: 20%;
     text-decoration: none;
     color: #FCF4DC;
     font-size: 1.2rem;
@@ -147,7 +147,7 @@ body {
     border: #135959 solid 1px;
     justify-content: center;
     padding: 0.3%;
-    border-radius: 70px;
+    border-radius: 16px;
 }
 
 .products_menu_item:hover {
@@ -193,6 +193,7 @@ body {
 
 .container .product_section img {
     max-width: 100%;
+    border-radius: 16px;
 }
 
 .container .card {
@@ -306,7 +307,7 @@ body {
     height: 40%;
 }
 
-.container .card .contentBx h2, h3 {
+.container .card .contentBx h1, h2, h3 {
     position: relative;
     font-size: 2vh;
     font-weight: 600;
@@ -323,9 +324,14 @@ body {
     line-height: 1.8vh;
 }
 
+.container .card .contentBx h1 {
+    font-size: 3vh;
+    line-height: 3vh;
+}
+
 .container .card .contentBx s {
     color: red;
-    font-size: 90%;
+    font-size: 60%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -461,10 +467,14 @@ body {
         --border-radius: 60px 5px;
     }
 
-    #nav-border {
+    .nav_items_language {
         opacity: 0;
-        height: 0;
     }
+
+    .nav_items_menu {
+        opacity: 0;
+    }
+
     *,
     *::before,
     *::after {

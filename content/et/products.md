@@ -23,7 +23,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>PRAEPANN</h2>
                         <h3>&empty; 28cm</h3>
-                        <h2><s>54.95</s> 16.99&euro;</h2>
+                        <h1><s>54.95</s> 16.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -40,7 +40,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>PRAEPANN</h2>
                         <h3>&empty; 24cm</h3>
-                        <h2><s>43.95</s> 13.99&euro;</h2>
+                        <h1><s>43.95</s> 13.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -57,7 +57,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>PRAEPANN</h2>
                         <h3>&empty; 20cm</h3>
-                        <h2><s>36.95</s> 9.99&euro;</h2>
+                        <h1><s>36.95</s> 9.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -74,7 +74,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>GRILLPANN</h2>
                         <h3>&empty; 26cm</h3>
-                        <h2><s>58.95</s> 20.99&euro;</h2>
+                        <h1><s>58.95</s> 20.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -91,7 +91,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>KAANEGA WOK-PANN</h2>
                         <h3>&empty; 28cm</h3>
-                        <h2><s>99.95</s> 34.99&euro;</h2>
+                        <h1><s>99.95</s> 34.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -116,7 +116,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>KAANEGA HAUDENÕU</h2>
                         <h3>&empty; 20cm</h3>
-                        <h2><s>65.95</s> 20.99&euro;</h2>
+                        <h1><s>65.95</s> 20.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -133,7 +133,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>KAANEGA KASTRUL</h2>
                         <h3>&empty; 18cm</h3>
-                        <h2><s>63.95</s> 19.99&euro;</h2>
+                        <h1><s>63.95</s> 19.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -150,7 +150,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>KAANEGA SUPIPOTT</h2>
                         <h3>&empty; 24cm</h3>
-                        <h2><s>91.95</s> 28.99&euro;</h2>
+                        <h1><s>91.95</s> 28.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -167,7 +167,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>KAANEGA HAUDENÕU</h2>
                         <h3>&empty; 28cm</h3>
-                        <h2><s>94.95</s> 32.99&euro;</h2>
+                        <h1><s>94.95</s> 32.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -198,7 +198,7 @@ title: "ET Products"
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>PUDRUNUI</h2>
-                        <h2><s>12.95</s> 3.79&euro;</h2>
+                        <h1><s>12.95</s> 3.79&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -215,7 +215,7 @@ title: "ET Products"
                     <div class="contentBx">
                         <h2>AURUTUSREST-SÕEL</h2>
                         <h3>&empty; 24cm</h3>
-                        <h2><s>41.95</s> 15.99&euro;</h2>
+                        <h1><s>41.95</s> 15.99&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -231,7 +231,7 @@ title: "ET Products"
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>SPAATEL</h2>
-                        <h2><s>9.95</s> 2.89&euro;</h2>
+                        <h1><s>9.95</s> 2.89&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
@@ -247,7 +247,7 @@ title: "ET Products"
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
                         <h2>PANNILABIDAS</h2>
-                        <h2><s>12.95</s> 3.79&euro;</h2>
+                        <h1><s>12.95</s> 3.79&euro;</h1>
                         <div class="size">
                             <div class="sticker_content">
                                 <h2>5 X</h2>
