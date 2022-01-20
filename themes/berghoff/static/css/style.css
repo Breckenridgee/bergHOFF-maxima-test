@@ -424,6 +424,7 @@ body {
     margin-right: auto;
     justify-content: center;
     margin-top: 100px;
+    width: 80%;
 }
 
 .berghoff {
@@ -437,7 +438,7 @@ body {
     height: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
     .body, .container, .rules_container {
         width: 98%;
         padding: 0;
@@ -479,6 +480,11 @@ body {
         opacity: 0;
     }
 
+    .body, .container, .rules_container {
+        width: 98%;
+        padding: 0;
+    }
+
     *,
     *::before,
     *::after {
@@ -499,9 +505,7 @@ body {
         z-index: 2000;
         width: 40px;
         height: 40px;
-        /* background-color: var(--home-bg-color); */
         border-radius: 7.5px;
-        /* border: 2px solid var(--border-color); */
     }
     .ham-menu {
         opacity: 1;
@@ -574,9 +578,9 @@ body {
         display: block;
         width: 20px;
         height: 2px;
-        margin: 7px 0 2.25px;
-        border-top-left-radius: 1px;
-        border-bottom-left-radius: 1px;
+        margin: 7px 0 3px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
         background-color: var(--border-color);
         transition: 500ms;
         transform-origin: right center;
@@ -586,8 +590,8 @@ body {
     [for="ham-menu"] > div > span:nth-child(6) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        border-top-right-radius: 1px;
-        border-bottom-right-radius: 1px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
         transform-origin: left center;
     }
     #ham-menu:checked + label span {
