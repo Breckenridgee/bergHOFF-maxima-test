@@ -121,25 +121,27 @@ body {
     width: 100%;
     gap: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: white;
     z-index: 1001;
     justify-content: center;
-    min-width: 200px;
+    max-width: 100%;
+    padding-bottom: 1%;
 }
 
 .products_menu_item {
-    min-width: 20%;
+    min-width: 120px;
+    width: 20%;
     text-decoration: none;
     color: #FCF4DC;
     font-size: 1.2rem;
     display: inline-flex;
-    margin: 1% 1%;
+    /* margin: 1% 1%; */
     background-color: #135959 ;
     border: #135959 solid 1px;
-    justify-content: center;
-    padding: 0.3%;
     border-radius: 16px;
+    justify-content: center;
 }
 
 .products_menu_item:hover {
