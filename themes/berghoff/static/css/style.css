@@ -38,7 +38,7 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 80px;
+    height: 90px;
     width: 100%;
     z-index: 1002;
     background-color: white;
@@ -69,6 +69,7 @@ body {
     font-size: 2.5vw;
     white-space: wrap;
     font-weight: lighter;
+    height: 100%;
 }
 
 .nav_items_menu a {
@@ -115,7 +116,7 @@ body {
 
 .products_menu {
     position: fixed;
-    top: 100px;
+    top: 90px;
     left: 0;
     width: 100%;
     gap: 20px;
