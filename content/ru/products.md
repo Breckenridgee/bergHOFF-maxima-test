@@ -147,7 +147,7 @@ title: "ET Products"
                 </div>
                 <div id="pot_3" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950303_001.png" alt="СУПОВАЯ КАСТРЮЛЯ СКРЫШКОЙ">
+                        <img src="images/web_3950303_001.png" alt="СУПОВАЯ КАСТРЮЛЯ СКРЫШКОЙ" class="smaller">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
@@ -195,7 +195,7 @@ title: "ET Products"
             <div class="products">
                 <div id="accessory_1" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950014_002.png" alt="ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ" style="width:70%">
+                        <img src="images/web_3950014_002.png" alt="ТОЛКУШКА ДЛЯ КАРТОФЕЛЯ" style="width:70%" class="smaller">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
@@ -211,7 +211,7 @@ title: "ET Products"
                 </div>
                 <div id="accessory_2" class="card3s card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width:70%">
+                        <img src="images/web_3950152_001.png" alt="ПАРОВАРКА-ДУРШЛАГ" style="width:70%" class="smaller">
                     </div>
                     <span class="promotion"> -61% </span>
                     <div class="contentBx">
@@ -228,7 +228,7 @@ title: "ET Products"
                 </div>
                 <div id="accessory_3" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950154_001.png" alt="ЛОПАТКА" style="width:80%">
+                        <img src="images/web_3950154_001.png" alt="ЛОПАТКА" style="width:80%" class="smaller">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">
@@ -244,7 +244,7 @@ title: "ET Products"
                 </div>
                 <div id="accessory_4" class="card3 card">
                     <div class="imgBx">
-                        <img src="images/web_3950156_001.png" alt="ЛОПАТКА ДЛЯ СКОВОРОДЫ" style="width:70%">
+                        <img src="images/web_3950156_001.png" alt="ЛОПАТКА ДЛЯ СКОВОРОДЫ" style="width:70%" class="smaller">
                     </div>
                     <span class="promotion"> -70% </span>
                     <div class="contentBx">

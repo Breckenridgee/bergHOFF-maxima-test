@@ -566,7 +566,7 @@ body {
     }
 
     .container .card .contentBx {
-        height: 50% !important;
+        height: 45% !important;
     }
 
     .container .card3 .contentBx {
@@ -575,16 +575,20 @@ body {
 
     .container .card .imgBx {
         top: 0%;
-        transform: translateY(-25%) rotate(-20deg);
+        transform: translateY(-20%) rotate(-20deg) !important;
     }
     .container .card3 .imgBx {
         top: 0%;
-        transform: translateY(-30%) rotate(-75deg);
+        transform: translateY(-15%) !important;
     }
 
     .container .card3s .imgBx {
         top: 0%;
         transform: translateY(-20%) rotate(-20deg);
+    }
+
+    .smaller {
+        width: 70% !important;
     }
 
     *,
