@@ -568,6 +568,14 @@ body {
         visibility: visible;
     }
 
+    .container .card .contentBx {
+        height: 50% !important;
+    }
+
+    .container .card3 .contentBx {
+        height: 40% !important;
+    }
+
     *,
     *::before,
     *::after {
