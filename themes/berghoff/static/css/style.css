@@ -137,7 +137,6 @@ body {
     color: #FCF4DC;
     font-size: 1.2rem;
     display: inline-flex;
-    /* margin: 1% 1%; */
     background-color: #135959 ;
     border: #135959 solid 1px;
     border-radius: 16px;
@@ -150,7 +149,7 @@ body {
 }
 
 .distance {
-    height: 18vh;
+    height: 20vh;
 }
 
 .mobile {
@@ -455,13 +454,13 @@ body {
         padding: 0;
     }
     .maxima_logo {
-        margin-top: 5px;
+        margin-top: 10px;
         max-height: 30px;
         left: 50%;
         transform: translateX(-100%);
     }
     .berghoff_logo {
-        margin-top: 5px;
+        margin-top: 10px;
         max-height: 40px;
         left: 50%;
     }
@@ -481,6 +480,14 @@ body {
         --lightest-green: #063538;
         --dark-green: white;
         --border-radius: 60px 5px;
+    }
+
+    #nav-border {
+        height: 50px !important;
+    }
+
+    .products_menu {
+        top: 50px !important;
     }
 
     .nav_items_language {
