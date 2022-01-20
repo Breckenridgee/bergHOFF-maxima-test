@@ -109,10 +109,9 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
 }
 
 .products_menu {
@@ -406,18 +405,14 @@ body {
 
 .no_promotion {
     width: 90%;
-    /* border-radius: 16px; */
     border-top: #063538 8px solid;
     border-bottom: #063538 8px solid;
-    /* margin-bottom: 200px; */
-    /* border: #063538 8px solid; */
 }
 
 .no_promotion p {
     text-align: center;
     font-size: 30px;
     font-weight: 500px;
-    /* color: white; */
 }
 
 .rules_container {
