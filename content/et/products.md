@@ -34,7 +34,7 @@ title: "ET Products"
                 </div>
                 <div id="pan_2" class="card">
                     <div class="imgBx">
-                        <img src="images/web_3950297_001.png" alt="PRAEPANN" style="width:80%">
+                        <img src="images/web_3950297_001.png" alt="PRAEPANN">
                     </div>
                     <span class="promotion"> -68% </span>
                     <div class="contentBx">
