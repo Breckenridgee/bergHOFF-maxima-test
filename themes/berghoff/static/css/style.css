@@ -147,7 +147,13 @@ body {
     .products_menu_item {
         font-size: 30px;
     }
-  }
+}
+
+@media screen and (max-width: 720px) {
+.products_menu_item {
+    font-size: 15px;
+}
+}
 
 .products_menu_item:hover {
     color: #063538;
