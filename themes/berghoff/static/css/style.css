@@ -535,6 +535,7 @@ body {
     .no-mobile {
         opacity: 0;
         height: 0;
+        display: none;
     }
 
     .distance {
