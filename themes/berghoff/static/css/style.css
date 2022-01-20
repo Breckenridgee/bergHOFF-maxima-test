@@ -151,6 +151,17 @@ body {
     height: 18vh;
 }
 
+.mobile {
+    opacity: 0;
+    height: 0;
+    display: none !important;
+}
+
+.no-mobile {
+    opacity: 1;
+    height: 100%;
+}
+
 .container {
     position: relative;
     margin-left: auto;
@@ -481,8 +492,67 @@ body {
     }
 
     .body, .container, .rules_container {
-        width: 98%;
+       position: relative;
+        width: 100%;
         padding: 0;
+        display: block;
+    }
+
+    .container {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+
+    .product_section {
+        position: relative;
+        display: block !important;
+        min-width: 100% !important;
+        width: 100% !important;
+        text-align: center;
+        max-width: 700px !important;
+        max-height: 2000px !important;
+    }
+
+    .products {
+        position: relative !important;
+        display: block;
+        max-width: 700px !important;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .mobile {
+        opacity: 1;
+        height: 100%;
+    }
+
+    .no-mobile {
+        opacity: 0;
+        height: 0;
+    }
+
+    .distance {
+        height: 100px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .card {
+        min-height: 400px !important;
+    }
+
+    .card3 {
+        min-height: 400px !important;
     }
 
     *,

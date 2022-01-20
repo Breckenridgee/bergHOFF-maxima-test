@@ -1,7 +1,7 @@
 ---
 title: "ET Products"
 ---
-<div>
+<div style="height: 100%">
     <div class="products_menu">
         <a class="products_menu_item" href="products#pans">Pannid</a>
         <a class="products_menu_item" href="products#pots">Potid</a>
@@ -106,6 +106,9 @@ title: "ET Products"
     <div id="pots" class="distance">
     </div>
     <div class="container">
+        <div class="product_section mobile">
+            <img src="images/products_pots.jpg" alt="berghoff_image">
+        </div>
         <div class="product_section">
             <div class="products">
                 <div id="pot_1" class="card">
@@ -178,14 +181,13 @@ title: "ET Products"
                 </div>
             </div>
         </div>
-        <div class="product_section">
+        <div class="product_section no-mobile">
             <img src="images/products_pots.jpg" alt="berghoff_image">
         </div>
     </div>
-    </div>
     <div id="accessories" class="distance">
     </div>
-    <div id="accessories" class="container">
+    <div class="container">
         <div class="product_section">
             <img src="images/products_accessories.jpg" alt="berghoff_image">
         </div>
