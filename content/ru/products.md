@@ -11,7 +11,7 @@ title: "ET Products"
     </div>
     <div class="container">
         <div class="product_section">
-            <img src="images/products_pans.jpg" alt="berghoff_image">
+            <img src="images/products_pans_ru.jpg" alt="berghoff_image">
         </div>
         <div class="product_section">
             <div class="products">
@@ -107,7 +107,7 @@ title: "ET Products"
     </div>
     <div class="container">
         <div class="product_section mobile">
-            <img src="images/products_pots.jpg" alt="berghoff_image">
+            <img src="images/products_pots_ru.jpg" alt="berghoff_image">
         </div>
         <div class="product_section">
             <div class="products">
@@ -182,14 +182,14 @@ title: "ET Products"
             </div>
         </div>
         <div class="product_section no-mobile">
-            <img src="images/products_pots.jpg" alt="berghoff_image">
+            <img src="images/products_pots_ru.jpg" alt="berghoff_image">
         </div>
     </div>
     <div id="accessories" class="distance">
     </div>
     <div class="container">
         <div class="product_section">
-            <img src="images/products_accessories.jpg" alt="berghoff_image">
+            <img src="images/products_accessories_ru.jpg" alt="berghoff_image">
         </div>
         <div class="product_section">
             <div class="products">
