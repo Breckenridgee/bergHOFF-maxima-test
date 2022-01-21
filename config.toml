@@ -42,6 +42,6 @@ defaultContentLanguage = 'et'
         url = '/products/'
         weight = 20
       [[languages.ru.menu.main]]
-        name = 'специальные предложения'
+        name = 'предложения'
         url = '/special-promotion/'
         weight = 30
