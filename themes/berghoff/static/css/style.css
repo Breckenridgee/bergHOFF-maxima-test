@@ -150,9 +150,9 @@ body {
 }
 
 @media screen and (max-width: 720px) {
-.products_menu_item {
-    font-size: 15px;
-}
+    .products_menu_item {
+        font-size: 15px;
+    }
 }
 
 .products_menu_item:hover {
@@ -311,22 +311,22 @@ body {
 }
 
 .container .card:hover .contentBx {
-    height: 50%;
+    height: 52%;
 }
 
 .container .card3:hover .contentBx {
-    height: 40%;
+    height: 48%;
 }
 
 .container .card .contentBx h1, h2, h3 {
     position: relative;
-    font-size: 2vh;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 2.4px;
     color: #fff;
     margin: 8px 0 0 0;
     word-spacing: 4px;
-    line-height: 2vh;
+    line-height: 20px;
     font-weight: lighter;
     width: 90%;
     margin-left: auto;
@@ -334,13 +334,13 @@ body {
 }
 
 .container .card .contentBx h3 {
-    font-size: 1.8vh;
-    line-height: 1.8vh;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 .container .card .contentBx h1 {
-    font-size: 3vh;
-    line-height: 3vh;
+    font-size: 24px;
+    line-height: 24px;
 }
 
 .container .card .contentBx s {
@@ -348,7 +348,11 @@ body {
     font-size: 60%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
+    .container .card .contentBx h1 {
+        font-size: 20px;
+        line-height: 20px;
+     }
     .container .card .contentBx h2 {
        font-size: 15px;
        line-height: 15px;
@@ -358,6 +362,21 @@ body {
         line-height: 12px;
     }
   }
+
+@media screen and (min-width: 1600px) {
+    .container .card .contentBx h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .container .card .contentBx h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .container .card .contentBx h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
 
 .container .card .contentBx .size {
     display: block;
