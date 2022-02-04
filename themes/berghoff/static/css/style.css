@@ -364,9 +364,6 @@ body {
     table, th, td {
         font-size: 10px;
     }
-    /* table {
-        margin: 2px;
-    } */
   }
 
 @media screen and (min-width: 1600px) {
@@ -472,8 +469,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 90px;
     width: 80%;
+    max-width: 1140px;
 }
 
 .berghoff {
@@ -485,6 +483,30 @@ body {
 .ham-menu {
     opacity: 0;
     height: 0;
+}
+
+table, th, tr {
+    border: #05545a 3px solid;
+    padding: 10px;
+    width: 49%;
+    word-break: break-all;
+}
+th, tr, td {
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: #05545a;
+    color: white;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 720px) {
@@ -527,33 +549,6 @@ body {
     #ham-menu:checked + label span:nth-child(6) {
         transform: translateY(-11px) rotate(-45deg) !important;
     }
-}
-
-table, th, tr {
-    border: #05545a 3px solid;
-    padding: 10px;
-    width: 50%;
-    /* margin: 10px; */
-    word-break: break-all;
-}
-th, tr, td {
-    height: 30px;
-    padding: 2px;
-    text-align: center;
-}
-table {
-    border-collapse: collapse;
-}
-thead {
-    background-color: #05545a;
-    color: white;
-}
-
-.tables {
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    /* margin: 10px; */
 }
 
 @media screen and (max-width: 1400px) {
