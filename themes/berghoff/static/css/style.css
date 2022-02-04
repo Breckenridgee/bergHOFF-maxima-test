@@ -361,6 +361,9 @@ body {
         font-size: 12px;
         line-height: 12px;
     }
+    table, th, td {
+        font-size: 10px;
+    }
   }
 
 @media screen and (min-width: 1600px) {
@@ -466,7 +469,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 80%;
 }
 
@@ -521,6 +524,30 @@ body {
     #ham-menu:checked + label span:nth-child(6) {
         transform: translateY(-11px) rotate(-45deg) !important;
     }
+}
+
+table, th, tr {
+    border: #05545a 3px solid;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    word-break: break-all;
+}
+th, tr, td {
+    height: 30px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: #05545a;
+    color: white;
+}
+
+.tables {
+    display: flex;
+    margin: 10px;
 }
 
 @media screen and (max-width: 1400px) {
