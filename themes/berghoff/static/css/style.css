@@ -538,6 +538,7 @@ table, th, tr {
 }
 th, tr, td {
     height: 30px;
+    padding: 2px;
     text-align: center;
 }
 table {
