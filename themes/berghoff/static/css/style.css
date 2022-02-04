@@ -364,6 +364,9 @@ body {
     table, th, td {
         font-size: 10px;
     }
+    /* table {
+        margin: 2px;
+    } */
   }
 
 @media screen and (min-width: 1600px) {
@@ -530,7 +533,7 @@ table, th, tr {
     border: #05545a 3px solid;
     padding: 10px;
     width: 50%;
-    margin: 10px;
+    /* margin: 10px; */
     word-break: break-all;
 }
 th, tr, td {
@@ -547,7 +550,9 @@ thead {
 
 .tables {
     display: flex;
-    margin: 10px;
+    justify-content: space-between;
+    gap: 5px;
+    /* margin: 10px; */
 }
 
 @media screen and (max-width: 1400px) {
