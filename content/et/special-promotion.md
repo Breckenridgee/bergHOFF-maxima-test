@@ -7,7 +7,7 @@ title: "Special Promotion"
       <img src="images/promotion_et.jpg" alt="promotion">
         <div class="tables">
             <table>
-                <thead><th colspan="2">TKupongi saamiseks osta üks järgnevatest toodetest:</th></thead>
+                <thead><th colspan="2">Kupongi saamiseks osta üks järgnevatest toodetest:</th></thead>
                 <tbody>
                     <tr>
                         <th>5413821326849</th> <td>Kaanega wok-pann BergHOFF 28 cm</td>
