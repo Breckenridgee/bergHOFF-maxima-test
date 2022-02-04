@@ -471,7 +471,7 @@ body {
     justify-content: center;
     margin-top: 90px;
     width: 80%;
-    max-width: 1140px;
+    /* max-width: 1140px; */
 }
 
 .berghoff {
@@ -485,11 +485,10 @@ body {
     height: 0;
 }
 
-table, th, tr {
+table, th, tr, td {
     border: #05545a 3px solid;
     padding: 10px;
     width: 49%;
-    word-break: break-all;
 }
 th, tr, td {
     height: 30px;
